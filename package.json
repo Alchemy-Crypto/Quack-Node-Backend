@@ -11,6 +11,9 @@
     "setup-db": "node -r dotenv/config setup-db.js",
     "setup-heroku": "heroku run npm run setup-db"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "jest": {
     "testEnvironment": "node"
   },
